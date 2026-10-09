@@ -3,7 +3,7 @@ from flask import Flask
 
 app = Flask(__name__)
 
-VERSION = "Version 1"
+VERSION = "Version 2"
 secret_number = random.randint(1, 100)
 
 
@@ -53,7 +53,7 @@ def home():
       .high { color: #ca8a04; }
       .correct { color: #16a34a; }
     </style>
-    <h1>Guess the Number</h1>
+    <h1>Guess the Number v2</h1>
     <p>I'm thinking of a number between 1 and 100.</p>
     <div>
       <input id="guess" type="number" min="1" max="100" placeholder="Your guess">
